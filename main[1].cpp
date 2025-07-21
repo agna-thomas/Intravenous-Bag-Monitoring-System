@@ -1,9 +1,9 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
-#define BLYNK_TEMPLATE_ID "TMPL3JEcFrnTM"   // connection to blynk app
+#define BLYNK_TEMPLATE_ID " "   // connection to blynk app
 #define BLYNK_TEMPLATE_NAME "IV Bag Monitoring"
-#define BLYNK_AUTH_TOKEN "o3jQz1IQS9jTu9iON8mqOVtc9GFXiIgL"
+#define BLYNK_AUTH_TOKEN " "
 #include <BlynkSimpleEsp32.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -11,9 +11,9 @@
 #include <ESP32Servo.h>
 
 
-char auth[] = "o3jQz1IQS9jTu9iON8mqOVtc9GFXiIgL"; //wifi connection
-char ssid[] = "POCO X5 Pro";
-char pass[] = "12345678";
+char auth[] = " "; //wifi connection
+char ssid[] = " ";
+char pass[] = " ";
 
 #define BLYNK_PRINT Serial
 
